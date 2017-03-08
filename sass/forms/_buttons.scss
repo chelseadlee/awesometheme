@@ -1,0 +1,20 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 2px solid;
+	border-color: black;
+	background: transparent;
+	color: black;
+	@include font-size(1);
+	line-height: 1;
+	padding: .5em 1em;
+	font-family: $font__sans;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: white;
+		coor: black;
+	}
+}
